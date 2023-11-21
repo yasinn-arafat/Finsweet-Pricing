@@ -59,34 +59,47 @@ body {
 /* ================================================
             Navbar Part Css Start
 ===================================================*/
+
+#navbar_part {
+  padding: 25px 0;
+  background: var(--Bg-Banner);
+}
+#navbar_part .custom_menu a {
+  color: #bbbbcb;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  margin-right: 25px;
+}
+#navbar_part .custom_menu a:hover {
+  color: var(--White, #fff);
+}
+#navbar_part .Btn button {
+  color: var(--White, #fff);
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 16px 48px;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  margin-left: 8px;
+}
+#navbar_part .Btn button:hover {
+  color: var(--Dark-blue, #282938);
+  background: var(--Grey, #f4f6fc);
+}
+
 /* ================================================
             Navbar Part Css End
-===================================================*/
-
-/* ================================================
-            Pricing Part Css Start
-===================================================*/
-/* ================================================
-            Pricing Part Css End
-===================================================*/
-
-/* ================================================
-            Accordion Part Css Start
-===================================================*/
-/* ================================================
-            Accordion Part Css End
-===================================================*/
-
-/* ================================================
-            Footer Part Css Start
-===================================================*/
-/* ================================================
-            Footer Part Css End
-===================================================*/
-
-/* ================================================
-            Last Footer Part Css Start
-===================================================*/
-/* ================================================
-            Last Footer Part Css End
 ===================================================*/
