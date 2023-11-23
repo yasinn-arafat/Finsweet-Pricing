@@ -103,3 +103,155 @@ body {
 /* ================================================
             Navbar Part Css End
 ===================================================*/
+
+/* ================================================
+            Pricing Part Css Start
+===================================================*/
+
+#pricing_part {
+  padding: 128px 0;
+}
+#pricing_part .pricing_heading {
+  text-align: center;
+  padding-bottom: 75px;
+}
+#pricing_part .pricing_heading h1 {
+  color: var(--Dark-blue, #282938);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+#pricing_part .pricing_heading p {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 18px;
+}
+#pricing_part .pricing_card {
+  padding: 64px 48px;
+  background: var(--Grey, #f4f6fc);
+  border-radius: 12px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+/* ===================Card Hover Effects Start=================== */
+
+#pricing_part .pricing_card:hover {
+  cursor: pointer;
+  background: var(--Bg-Banner, #1c1e53);
+  transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
+}
+
+#pricing_part .pricing_card:hover .price_rate h4 {
+  color: var(--White, #fff);
+}
+#pricing_part .pricing_card:hover .price_rate p {
+  color: var(--Yellow, #fcd980);
+}
+#pricing_part .pricing_card:hover .price_head h5 {
+  color: var(--White, #fff);
+}
+#pricing_part .pricing_card:hover .price_head p {
+  color: var(--White, #fff);
+}
+#pricing_part .pricing_card:hover .price_items ul li p {
+  color: var(--White, #fff);
+}
+#pricing_part .pricing_card:hover .btn_effect a {
+  color: var(--Dark-blue, #282938);
+  background: var(--Yellow, #fcd980);
+}
+
+/* ===================Card Hover Effects End=================== */
+
+#pricing_part .pricing_card .price_rate h4 {
+  color: var(--Dark-blue, #282938);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#pricing_part .pricing_card .price_rate p {
+  color: var(--Royal-Blue, #2405f2);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 14px;
+  margin-left: 9px;
+}
+
+#pricing_part .pricing_card .price_head h5 {
+  color: var(--Dark-blue, #282938);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 20px;
+}
+#pricing_part .pricing_card .price_head p {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  padding-top: 8px;
+  padding-bottom: 78px;
+}
+#pricing_part .pricing_card .card_2 p {
+  padding-bottom: 50px;
+}
+#pricing_part .pricing_card .card_3 p {
+  padding-bottom: 35px;
+}
+
+#pricing_part .pricing_card .price_items ul li {
+  margin-bottom: 20px;
+}
+#pricing_part .pricing_card .price_items ul li p {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 12px;
+}
+#pricing_part .pricing_card .price_items ul li .prcie_opacity {
+  opacity: 0.7;
+}
+
+#pricing_part .pricing_card .price_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 78px;
+}
+#pricing_part .pricing_card .price_btn a {
+  color: var(--Grey, #f4f6fc);
+  background: var(--Dark-blue, #282938);
+  font-family: var(--Manrope);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 16px 77.5px;
+  border-radius: 41px;
+  display: inline-block;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+#pricing_part .pricing_card .price_btn a:hover {
+  padding: 16px 90px;
+  background: #fff;
+  color: #0066cc;
+}
+
+/* ================================================
+            Pricing Part Css End
+===================================================*/
