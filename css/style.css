@@ -255,3 +255,68 @@ body {
 /* ================================================
             Pricing Part Css End
 ===================================================*/
+
+/* ================================================
+            Accordion Part Css Start
+===================================================*/
+
+#accordion_part {
+  padding: 128px 0;
+}
+#accordion_part .accordion_left h3 {
+  color: var(--Dark-blue, #282938);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  padding-bottom: 16px;
+}
+#accordion_part .accordion_left a {
+  color: var(--Royal-Blue, #2405f2);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  opacity: 0.87;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#accordion_part .accordion_left a:hover {
+  border-radius: 30px;
+  background: var(--Yellow);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  color: var(--Dark-blue);
+  padding: 0 7px;
+}
+
+#accordion_part .accordion_right span {
+  color: var(--Royal-Blue, #2405f2);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-right: 58px;
+}
+#accordion_part .accordion_right h6 {
+  color: var(--Dark-blue, #282938);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#accordion_part .accordion_right p {
+  color: var(--Dark-blue, #282938);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  opacity: 0.8;
+  padding-left: 83px;
+}
+
+/* ================================================
+            Accordion Part Css End
+===================================================*/
